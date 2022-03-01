@@ -1,0 +1,165 @@
+:root{
+    --branco: #ffffff;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*base da clone*/
+body{
+    background-color: var(--branco);
+    background-size: 100%;
+    font-family:'DMSans',Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: white;
+}
+
+header .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+header .nav-control{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.logo{
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 40%;
+
+}
+
+
+.login{
+    text-transform: uppercase;
+    text-align:center;
+    cursor: pointer;
+    color: var(--branco);
+    font-family: 'DMSans',Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+header .dropdown{
+    color: #ffffff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+main .carrousel-text{
+    text-transform: uppercase;
+    font-size: 31px;
+
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    padding-top: 15%;
+
+    
+
+    
+}
+
+.botao{
+    display:flex;
+    border: none;
+    font-family: 'DMSans',Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #001489;
+    color: var(--branco);
+    margin-top: 15%;
+    margin-left: 5%;
+    padding: 13px 25px;
+    cursor: pointer;
+
+}
+
+.botao:hover{
+    background-color: rgb(0, 0, 194);
+}
+
+.container{
+    background: url('/resources/img/chungkingbg.gif');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container_carrosel{
+    margin-bottom: 10%;
+}
+
+.middle{
+    background: url('/resources/img/fantastic-mr-foxbg.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-middle{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'DMSans',Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: white;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
+.dispositivos{
+    margin-right: 25%;
+    margin-top: 10%;
+}
+
+.second-middle{
+    box-sizing: border-box;
+    background-color: white;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo2{
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 25%;
+}
+
+.text2{
+    color: grey;
+    margin-top: 7%;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:'DMSans',Helvetica,Arial,"Lucida Grande",sans-serif;
+}
